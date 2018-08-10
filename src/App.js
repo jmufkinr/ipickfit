@@ -8,7 +8,9 @@ import Login from "./Login";
 import About from "./About";
 import Register from "./Register";
 import WorkoutVideoLinks from "./WorkoutVideoLinks";
-
+// import Cardio from "./Cardio";
+// import LowerBody from "./LowerBody";
+// import UpperBody from "./UpperBody";
 
 const IPickFit = () => (
   <Router>
@@ -20,7 +22,7 @@ const IPickFit = () => (
           <Link to="/register">&emsp;&emsp;Register&emsp;</Link>
           <Link to="/about">&emsp;&emsp;About&emsp;</Link>
           {/* <Link to="/app">&emsp;&emsp;App&emsp;</Link>*/}
-          <Link to="/cardio">&emsp;&emsp;Workout Video Links&emsp;</Link>          
+          <Link to="/workout-video-links">&emsp;&emsp;Workout Video Links&emsp;</Link>            
           {/* <Link to="/listItems">&emsp;&emsp;List Items&emsp;</Link> */}
           
           &emsp;&emsp;
@@ -33,8 +35,10 @@ const IPickFit = () => (
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
           <Route path="/about" component={About} />
-          <Route path="/workout-video-links" component={WorkoutVideoLinks} />
-          <Route path="/cardio" component={WorkoutVideoLinks} />
+          <Route path="/workout-video-links" component={WorkoutVideoLinks} />                  
+          {/* <Route path="/cardio" component={Cardio} />
+          <Route path="/lower-body" component={LowerBody} />
+          <Route path="/upper-body" component={UpperBody} /> */}
           {/* <Route path="/listItems" component={listItems} /> */}
 
                 </div>

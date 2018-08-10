@@ -15,6 +15,9 @@ class Login extends React.Component {
     return (
       <React.Fragment>
         <div className="row">
+        <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
           <h1>Login Page</h1>
           <form className="col-md-6">
 
@@ -34,6 +37,9 @@ class Login extends React.Component {
               </p>
             </div>
           </form>
+          </div>
+          </div>
+          </header>
         </div>
 
       </React.Fragment>

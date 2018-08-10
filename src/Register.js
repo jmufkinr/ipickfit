@@ -55,6 +55,9 @@ class Register extends React.Component {
   render() {
     return (
       <div className="row">
+      <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
       <h1>Registration Page</h1>
         <form className="col-md-6">       
           <div className="form-group">
@@ -85,7 +88,11 @@ class Register extends React.Component {
             </p>
           </div>
         </form>
+        </div>
       </div>
+      </header>
+      </div>
+      
     );
   }
 }

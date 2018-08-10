@@ -17,11 +17,11 @@ class Home extends React.Component {
     {/* <!-- Navigation --> */}
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        {/* <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
-        </button>
+        </button> */}
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -150,7 +150,9 @@ class Home extends React.Component {
                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Address</h4>
                 <hr class="my-4" />
-                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                <div class="small text-black-50">
+                <a href="#">Twentynine Palms, CA</a>
+                </div>
               </div>
             </div>
           </div>
@@ -174,7 +176,9 @@ class Home extends React.Component {
                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Phone</h4>
                 <hr class="my-4" />
-                <div class="small text-black-50">+1 (555) 902-8832</div>
+                <div class="small text-black-50">
+                <a href="#">+1 (951) 970-6287</a>
+                </div>
               </div>
             </div>
           </div>
